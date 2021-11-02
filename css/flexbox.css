@@ -1,0 +1,108 @@
+.box-style-1 {
+    background: rgb(131, 102, 102);
+}
+.box-style-2 {
+    background: rgb(243, 11, 11);
+    height: 300px;
+}
+.box-style-3 {
+    background: rgb(243, 11, 11);
+    height: 400px;
+}
+.flex-direction-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.flex-direction-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.flex-wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.flex-no-wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+.flex-flow-column-wrap {
+    display: flex;
+    gap: 20px;
+    flex-flow: column wrap;
+    overflow-x: scroll ;
+}
+.flex-flow-column-no-wrap {
+    display: flex;
+    gap: 20px;
+    flex-flow: column nowrap;
+}
+.flex-justify-space-between {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.flex-justify-space-around {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.flex-justify-space-evenly {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.flex-justify-flex-start {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+.flex-justify-flex-end {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.flex-justify-flex-center {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.aling-item-flex-start {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.aling-item-flex-start {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.aling-item-flex-center {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.aling-item-flex-end {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+.item-flex{
+    background: rgb(5, 163, 163);
+    width: 200px;
+    height: 280px;
+    color: rgb(214, 44, 44);
+    font-size: 1.5em;
+}
+.item-flex-2 {
+    background: rgb(5, 163, 163);
+    width: 200px;
+    height: 400px;
+    color: rgb(214, 44, 44);
+    font-size: 1.5em;
+}

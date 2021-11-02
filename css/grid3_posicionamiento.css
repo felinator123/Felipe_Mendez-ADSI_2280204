@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 9px;
+    width: 100%;
+    max-width: 1000px;
+/*     border: 3px solid rgba(8, 8, 8, 0.822); */
+    margin: 0 auto;
+    font-size: 1.8em;
+
+    justify-items: stretch;
+
+     align-items: center;  
+}
+.contenedor > div {
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 47, 255, 0.664);
+    justify-content: center;
+    align-items: center;  
+}
+.contenedor .nombre-dia {
+    background: rgb(48, 145, 145);
+}
+.contenedor .item {
+    background: #3759b8;
+}
+.primer_dia {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}   
+.nombre_mes {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    font-size: 1.8em;
+    font-style: italic;
+}   
