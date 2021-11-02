@@ -1,0 +1,22 @@
+.nav-vertical li{
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(13,110,253);
+    border-radius: 5px;
+    font-family: "roboto", sans-serif;
+    font-size: 0..9em;
+}
+.nav-vertical li:hover {
+    background-color: rgb(49, 126, 19);
+}
+.nav-vertical a {
+    text-decoration: none;
+    color: white;
+}
+.nav-vertical {
+    display: inline-block;
+}
+.nav-horizontal {
+    display: inline;
+}

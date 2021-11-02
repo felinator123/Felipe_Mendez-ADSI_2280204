@@ -1,0 +1,54 @@
+body {
+    margin: 0 4em;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+.texto-margenes {
+    text-align: justify;
+    font-size: 1.5em;
+}
+.parrafo-bordes1 {
+    font-size: 1.5em;
+    text-align: justify;
+    border: 3px solid rgba(0, 255, 255, 0.938);
+}
+.parrafo-bordes2 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-top: 3px solid rgb(255, 136, 0);
+}
+.parrafo-bordes3 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-left: 3px dashed rgb(0, 17, 255);
+    border-right: 3px solid rgb(0, 17, 255);
+}
+.parrafo-padding1 {
+    font-size: 1.5em;
+    text-align: justify;
+    border: 3px solid rgba(0, 81, 255, 0.938);
+    padding: 1.3em;
+    background-color: rgba(0, 81, 255, 0.938);
+    color:white;
+    line-height: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parrafo-padding2 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-top: 3px solid rgb(255, 136, 0);
+    padding-top: 2em;
+}
+.parrafo-padding3 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-left: 3px dashed rgb(0, 17, 255);
+    border-right: 3px solid rgb(0, 17, 255);
+    padding:0 2em;
+}

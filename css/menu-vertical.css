@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    background-color: rgb(51, 69, 226);
+    width: 340px;
+    overflow: auto;
+}
+ul {
+    list-style: none; 
+    margin: 40px 30px 40px 25px;
+    height: 100%;
+}
+li {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: azure;
+    margin: 20px;
+    font-size: 1.5em;
+}
+i {
+    margin-right: 10px;
+}
+.content-main {
+    
+    /* width: 90%; */
+    margin: 0 2em 0 22em;
+    text-align: justify;
+}
+p {
+    font-size: 1.3em;
+}
+h1 {
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: rgb(64, 64, 64);
+}
+.fa-phone-square-alt {
+    margin-right: 17px;
+}
+.fa-phone-square-alt {
+    margin-right: 17px;
+}

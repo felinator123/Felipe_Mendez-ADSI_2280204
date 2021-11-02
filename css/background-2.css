@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+ul {
+    text-align: right;
+    width: 100%;
+}
+li {
+    display: inline-block;
+    margin: 17px;
+    font-size: 2em;
+    color: rgb(226, 31, 31)
+}
+
+.img-principal {
+    width: 100%;
+    position: absolute;
+}
+.img-principal-invisible {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: rgb(34, 31, 226);
+}
+p {
+    margin: 35px;
+    font-size: 1.3em;
+    text-align: justify;
+}
