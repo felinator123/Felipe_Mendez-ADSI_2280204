@@ -1,4 +1,4 @@
-console.log("===fecha y hora===");
+-console.log("===fecha y hora===");
 var currentTime= new Date();
 var HoraActual= currentTime.getHours();
 console.log("la hora actual por defecto del sistema es : "+ HoraActual);
@@ -65,9 +65,14 @@ console.log("feliz cumpleaños Estevan")
  var diadehoy=today;
  var cumplefelipe= new Date("june 29 2022");
  var milisegundosdiadehoy=diadehoy.getTime();
-var milisegundoscumplefelipe=cumplefelipe.getTime();
-var diferenciamilis=milisegundoscumplefelipe-milisegundosdiadehoy;
-var diasdiferencia= diferenciamilis/(1000*60*60*24);
+ var milisegundoscumplefelipe=cumplefelipe.getTime();
+ var diferenciamilis=milisegundoscumplefelipe-milisegundosdiadehoy;
+ var diasdiferencia= diferenciamilis/(1000*60*60*24);
 
  alert(Math.floor(diasdiferencia));
 
+ /* seterminar si ya venncio el plazo */
+
+ var fechaHoraLimite = new Date(Date.UTC(2021, 11, 9, 8, 50, 0));
+ fechaHoraLimite.setHours(8);
+console.log("Fecha y Hora de vencimineto: " + fechaHoraLimite);
