@@ -15,7 +15,7 @@ class Automovil {
         let auto1 = new Automovil("Bmw", "Serie", "F33", 2019, 139000000, 31600, 2000, "Cundinamarca", "img/bmw1.jpeg");
         let auto2 = new Automovil("Bmw", "Serie", "Sportline", 2020, 170000000, 9000, 2000, "Bogotá",  "img/bmw2.jpeg");
         let auto3 = new Automovil("Bmw", "Serie", "Cabriolet", 2010, 159900000, 6232, 2000, "Bogotá",  "img/bmw3.jpeg");
-        let auto4 = new Automovil("Toyota","serie","Camioneta", 2015, 159900000, 6232, 2000,"Bogota", "img/toyota.jpg");
+        let auto4 = new Automovil("Toyota","serie","Camioneta", 2015, 159900000, 6232, 2000,"Bogota", "img/Toyota.jpg");
 
 
 function mostrarVehiculo(auto) {
